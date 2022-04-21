@@ -11,7 +11,7 @@ from imblearn.under_sampling import RandomUnderSampler, NearMiss, CondensedNeare
 from imblearn.under_sampling import EditedNearestNeighbours, RepeatedNearestNeighbours, TomekLinks
 from imblearn.over_sampling import RandomOverSampler, SMOTE
 from imblearn.combine import SMOTEENN, SMOTETomek
-from imblean.ensemble import BalanceCascade, EasyEnsemble
+from imblearn.ensemble import BalanceCascade, EasyEnsemble
 from sklearn.ensemble import AdaBoostClassifier
 import warnings
 import pandas as pd
